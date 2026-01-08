@@ -8,7 +8,7 @@ searchInput.addEventListener('input', () => {
     const title = box.querySelector('h2').innerText.toLowerCase();
     if (title.includes(query)) {
       box.style.display = 'block';
-    } else {
+    } else 
       box.style.display = 'none';
     }
   });
@@ -30,5 +30,6 @@ toggleBtn.addEventListener('click', () => {
     localStorage.setItem('theme', 'light');
   }
 });
+
 
 
