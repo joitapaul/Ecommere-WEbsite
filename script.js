@@ -9,7 +9,7 @@ searchInput.addEventListener('input', () => {
     if (title.includes(query)) {
       box.style.display = 'block';
     } else {
-      box.style.display = 
+      box.style.display = 'none';
     }
   });
 });
@@ -30,6 +30,7 @@ toggleBtn.addEventListener('click', () => {
     localStorage.setItem('theme', 'light');
   }
 });
+
 
 
 
