@@ -7,7 +7,7 @@ searchInput.addEventListener('input', () => {
   productBoxes.forEach(box => {
     const title = box.querySelector('h2').innerText.toLowerCase();
     if (title.includes(query)) {
-      box.style.display = 
+      box.style.display = 'block';
     } else {
       box.style.display = 'none';
     }
@@ -30,6 +30,7 @@ toggleBtn.addEventListener('click', () => {
     localStorage.setItem('theme', 'light');
   }
 });
+
 
 
 
