@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: ;
     font-family: Arial;
     border: border-box;
  }
@@ -261,6 +261,7 @@ body {
   cursor: pointer;
   z-index: 999;
 }
+
 
 
 
