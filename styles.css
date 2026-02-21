@@ -7,7 +7,7 @@
     height: 8=50px;
     background-color: #4961af;
     color: white;
-    display: flex;
+    display: ;
     align-items: center;
     justify-content: space-evenly;
  }
@@ -261,6 +261,7 @@ body {
   cursor: pointer;
   z-index: 999;
 }
+
 
 
 
